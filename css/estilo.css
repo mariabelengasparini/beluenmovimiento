@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+.tamLogo {
+    width: 200px;
+    margin-left: 50px;
+}
+
+.encabezado {
+    background-color: black;
+}
+
+.fuenteNav {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.fuenteNav a:hover {
+    color: plum;
+}
+
+.navColor {
+    color: white;
+}
+
+.instagram {
+    background-color: plum;
+    padding: 9px 25px;
+    border-radius: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.instagram:hover {
+    color: bisque;
+    background-color: chocolate
+}
+
+/* FOOTER */
+
+footer {
+   border-top: 1px solid grey;
+   padding: 15px 30px;
+   text-align: center;
+   color: grey;
+}
+
+footer h3 {
+    font-size: 1rem;
+}
+
+
+/**************************************INDEX *********************************************************/
+.carousel-inner h2 {
+    font-style: italic;
+}
+
+.carousel-inner p {
+    font-size: 2rem;
+}
+
+.contenedorTitulo {
+    font-size: 0.5rem;
+    color: plum;
+    padding: 15px 35px;
+    text-align: center;
+    font-style: italic;
+}
+
+.contenedorParrafo p {
+    text-align: center;
+    background-color:plum;
+    color: white;
+    padding: 15px 35px;
+}
+
+/* CARD CON BOOTSTRAP */
+
+.card {
+    border: none;
+}
+
+.card h3 {
+    color: plum;
+    text-transform: lowercase;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.card-body p {
+    color: grey;
+    font-size: 1rem;
+    text-align: center;
+}
+   
