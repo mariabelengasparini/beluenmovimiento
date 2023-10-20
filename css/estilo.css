@@ -108,3 +108,36 @@ footer h3 {
     text-align: center;
 }
    
+/**************************************QUIEN SOY*********************************************************/
+.contenedorPresentacion {
+    padding: 15px 35px;
+}
+
+.contenedorPresentacion h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: plum;
+    font-style: italic;
+}
+
+.contenedorPresentacion p {
+    font-size: 1rem;
+    text-align: center;
+    color: plum;
+    font-style: italic;
+}
+
+.contenedorParrafo {
+    background-color: plum;
+    padding: 15px 35px;
+}
+
+.parrafo {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footerQuiensoy {
+    margin-top: 50px;
+}
