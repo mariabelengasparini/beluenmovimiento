@@ -48,7 +48,7 @@ body {
 
 .instagram:hover {
     color: bisque;
-    background-color: chocolate
+    background-color: black
 }
 
 /* FOOTER */
@@ -141,3 +141,18 @@ footer h3 {
 .footerQuiensoy {
     margin-top: 50px;
 }
+
+/**************************************SERVICIOS*********************************************************/
+
+.serviciosTitulo {
+    background-color: plum;
+    padding: 15px 35px;
+}
+
+.serviciosTitulo p {
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    color: white;
+}
+
