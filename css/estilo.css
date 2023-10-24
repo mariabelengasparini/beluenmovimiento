@@ -89,6 +89,7 @@ footer h3 {
     padding: 15px 35px;
 }
 
+
 /* CARD CON BOOTSTRAP */
 
 .card {
@@ -216,3 +217,11 @@ textarea {
     cursor: pointer;
     margin: 10px;
 }
+
+/* AGREGO UN MEDIA QUERIES */
+@media (max-width:1000px) {
+    .instagram {
+        display: none;
+    }
+}
+
