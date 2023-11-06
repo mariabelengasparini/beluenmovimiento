@@ -1,0 +1,39 @@
+.tamLogo {
+  width: 200px;
+  margin-left: 50px;
+}
+
+.encabezado {
+  background-color: black;
+}
+
+.fuenteNav {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+
+  a:hover {
+    color: plum;
+  }
+}
+
+.navColor {
+  color: white;
+}
+
+.instagram {
+  background-color: plum;
+  padding: 9px 25px;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+
+  &:hover {
+    color: bisque;
+    background-color: black;
+  }
+}
