@@ -1,11 +1,11 @@
 .guiasTitulo {
-    background-color: plum;
+    background-color: $color-rosa;
     padding: 15px 35px;
 
     p {
         text-align: center;
         font-size: 2rem;
         font-style: italic;
-        color: white;
+        color: $color-blanco;
     }
 }

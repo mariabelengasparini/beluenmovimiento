@@ -5,14 +5,14 @@
 }
 
 .card h3 {
-    color: plum;
+    color: $color-rosa;
     text-transform: lowercase;
     text-align: center;
     font-size: 2rem;
 }
 
 .card-body p {
-    color: grey;
+    color: $color-gris;
     font-size: 1rem;
     text-align: center;
 }

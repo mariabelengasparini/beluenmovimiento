@@ -4,25 +4,25 @@
     h2 {
         font-size: 2rem;
         text-align: center;
-        color: plum;
+        color: $color-rosa;
         font-style: italic;
     }
 
     p {
         font-size: 1rem;
         text-align: center;
-        color: plum;
+        color: $color-rosa;
         font-style: italic;
     }
 }
 
 .contenedorParrafo {
-    background-color: plum;
+    background-color: $color-rosa;
     padding: 15px 35px;
 }
 
 .parrafo {
-    color: white;
+    color: $color-blanco;
     font-size: 1rem;
     text-align: center;
 }

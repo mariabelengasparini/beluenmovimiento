@@ -10,7 +10,7 @@
 
 .contenedorTitulo {
     font-size: 0.5rem;
-    color: plum;
+    color: $color-rosa;
     padding: 15px 35px;
     text-align: center;
     font-style: italic;
@@ -18,7 +18,7 @@
 
 .contenedorParrafo p {
     text-align: center;
-    background-color: plum;
-    color: white;
+    background-color: $color-rosa;
+    color: $color-blanco;
     padding: 15px 35px;
 }

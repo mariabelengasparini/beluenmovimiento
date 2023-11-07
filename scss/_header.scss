@@ -1,3 +1,5 @@
+//HEADER//
+
 .tamLogo {
   width: 200px;
   margin-left: 50px;
@@ -8,29 +10,26 @@
 }
 
 .fuenteNav {
-  font-size: 0.8rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
+  @include anclas;
 
   a:hover {
-    color: plum;
+    color: $color-rosa;
   }
 }
 
 .navColor {
-  color: white;
+  color: $color-blanco;
 }
 
 .instagram {
-  background-color: plum;
+  background-color: $color-rosa;
   padding: 9px 25px;
   border-radius: 50px;
   margin-right: 10px;
   cursor: pointer;
   text-decoration: none;
   list-style-type: none;
-  color: white;
+  color: $color-blanco;
 
   &:hover {
     color: bisque;
