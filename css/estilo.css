@@ -47,7 +47,19 @@ body {
 }
 
 .card {
-  border: none;
+  border: 1 px solid grey;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  filter: grayscale(5%);
+}
+
+.card:hover {
+  filter: grayscale(90%);
+}
+
+.card-group {
+  gap: 30px;
 }
 
 .card h3 {
@@ -151,6 +163,7 @@ footer h3 {
 
 form {
   margin-top: 20PX;
+  padding: 20px;
 }
 
 label {
@@ -175,11 +188,10 @@ textarea {
   background-color: #F4E8F4;
   color: #8f668f;
   border: none;
-  padding: 10px 20px;
+  padding: 10px;
   border-radius: 5px;
   font-size: 18px;
   cursor: pointer;
-  margin: 10px;
 }
 
 .guiasTitulo {

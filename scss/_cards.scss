@@ -1,7 +1,19 @@
 // CARDS BOOTSTRAP //
 
 .card {
-    border: none;
+    border: 1 px solid $color-gris;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    filter: grayscale(5%);
+}
+
+.card:hover {
+   filter: grayscale(90%);
+}
+
+.card-group {
+    gap: 30px;
 }
 
 .card h3 {
